@@ -1,18 +1,55 @@
+.logo{
+  width: 20%;
+  background: black;
+}
 
-.fa-caret-down {
-  color: red;
+.navbar-brand{
+  padding: 2px;
+  padding-left: 30px;
+}
+
+.navbar, .navbar-default{
+  background: black;
+}
+
+.table{
+  color: white;
+  border: 5px solid rgba(0, 0, 0, 1);
 }
 
 
-.fa-caret-up {
-  color: green;
+
+.theads{
+  background: black;
+  border-bottom: 5px solid blue;
+  border-left: 5px solid black;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* .container-fluid{
+  margin-left: 15%;
+  margin-right: 15%;
+} */
+
+.table{
+  background: rgba(190,190,190,1);
+  font-size: 18px;
+
 }
 
 /* First two should be green ( or a colour that shows it's good ) */
 tr.contestant:nth-child(1),
 tr.contestant:nth-child(2) {
-  background-color: #9aeda7;
+  /* background-color: #9aeda7; */
+  border-right: 5px solid rgba(0, 0, 0, 1);
+  border-left: 5px solid rgba(0, 0, 0, 1);
+  /* border-top: 5px solid rgba(0, 0, 255, 1); */
+  border-bottom: 5px solid rgba(0, 0, 255, 1);
 }
+
+
+
 
 
 /* Next four should be orange ( or average colour ) */
@@ -20,7 +57,9 @@ tr.contestant:nth-child(3),
 tr.contestant:nth-child(4),
 tr.contestant:nth-child(5),
 tr.contestant:nth-child(6) {
-  background-color: #f1f442;
+  /* background-color: rgba(190, 190, 190, 1); */
+  border-right: 5px solid rgba(0, 0, 0, 1);
+  border-left: 5px solid rgba(0, 0, 0, 1);
 }
 
 
@@ -28,5 +67,9 @@ tr.contestant:nth-child(6) {
 tr.contestant:nth-last-child(1),
 tr.contestant:nth-last-child(2),
 tr.contestant:nth-last-child(3) {
-  background-color: #ff8484;
+  /* background-color: #ff8484; */
+  border-top: 5px solid rgba(255, 0, 0, 1);
+  border-bottom: 5px solid rgba(255, 0, 0, 1);
+  border-right: 5px solid rgba(0, 0, 0, 1);
+  border-left: 5px solid rgba(0, 0, 0, 1);
 }
